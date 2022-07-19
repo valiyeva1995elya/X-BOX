@@ -15,8 +15,10 @@ h1{
     padding: 0 15%;
 }
 header{
-    margin: 72px 0 57px;
+    margin: 72px auto 57px;
     align-items: center;
+    max-width: 1232px;
+
 }
 .flex{
     display: flex;
@@ -32,9 +34,7 @@ header{
     width: 144px;
     height: 44px;
 }
-.header-nav{
-    
-}
+
 .text-17-600{
     font-size: 17px;
     font-weight: 600;
@@ -44,16 +44,18 @@ header{
     background-image: url(../img/image5.png);
     height: 1010px;
     background-repeat: no-repeat;
-    background-position: 70%;
+    background-position: right;
     background-size: contain;
 }
+
+
 .text-21-700{
     font-size: 21px;
     font-weight: 700;
     line-height: 25px;
 }
 .text-171-600{
-    font-size: 171px;
+    font-size: 160px;
     font-weight: 600;
     line-height: 155px;
 }
@@ -67,17 +69,38 @@ header{
     font-weight: 600;
     line-height: 62px;
 }
+.text-16-500{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #777777;
+}
 .text-72-700{
     font-size: 72px;
     font-weight: 700;
     line-height: 72px;
+}
+.text-53-700{
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 80px;
 }
 .text-91-700{
     font-size: 91px;
     font-weight: 700;
     line-height: 105px;
 }
-
+.text-60-700{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    color: black;
+}
+main{
+    margin: 72px auto 57px;
+    align-items: center;
+    max-width: 1232px;
+}
 .mr-43{
     margin-right: 43px;
 }
@@ -105,6 +128,7 @@ header{
 }
 .main-nav{
     margin-top: 114px;
+    justify-content: space-evenly;
 }
 .block-nav{
     flex-direction: column;
@@ -128,59 +152,81 @@ header{
     height: 57px;
 }
 .big-text{
-    padding: 5% 20%;
+    padding: 9% 4%;
     text-align: center;
 }
+
+
+
 .card-power{
-    min-width: 1300px;
-    min-height: 760px;
-    background-image: url(../img/card.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+.img-card{
+    
     position: relative;
-    margin-bottom: 75px;
+    
+}
+#card{
+    max-width: 1232px;
+    max-height: 754px;
+    z-index: -1;
+    
 }
 .text-card{
-    width: 25%;
-    
+    width: 500px;
     position: absolute;
-    top: 25%;
-    right: 25%;
+    top: 190px;
+    left: 650px;
 }
+.mr-30{
+    margin: 30px 0;
+}
+
 .card-optimized{
-    min-width: 1300px;
-    min-height: 760px;
-    background-image: url(../img/image\ bg.png);
+
+    justify-content: center;
     align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+}
+.card-optimized-info{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+#card2{
+    max-width: 1232px;
+    max-height: 754px;
+    z-index: -1;
     
 }
 .left-card{
-    width: 36%;
-    margin-left: 144px;
+    width: 45%;
+    margin: 110px 144px 0 0;
+
 }
 .right-card{
     position: relative;
-    width: 50%;
+    width: 45%;
 }
 .poster1{
     width: 207px;
     height: 290px;
     z-index: -1;
     position: absolute;
-    left: 350px;
-    top: -295px;
+    left: 200px;
+    top: -45px;
 }
 .poster2{
     width: 325px;
     height: 455px;
     z-index: 1;
     position: absolute;
-    left: 80px;
-    top: -230px;
+    left: -75px;
+    top: 22px;
 
 }
 .poster3{
@@ -188,6 +234,161 @@ header{
     height: 367px;
     z-index: -1;
     position: absolute;
-    left: 330px;
-    top: 50px;
+    left: 180px;
+    top: 291px;
+}
+
+.card-control{
+    flex-direction: column;
+    max-width: 1232px;
+    margin: 132px auto;
+    align-items: center;
+    
+    
+}
+.block-left{
+    flex-direction: column;
+    margin-right: 15px;
+}
+.block-right{
+    flex-direction: column;
+    margin-top: 189px;
+}
+.img-block{
+    width: 608px;
+    height: 702px;
+}
+.text-box{
+    width: 400px;
+    height: 140px;
+    position: relative;
+    right: -280px;
+    top: 85px;
+}
+.text-box2{
+    width: 400px;
+    height: 140px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.mb-18{
+    margin-bottom: 18px;
+}
+.block-text{
+    width: 515px;
+    height: 100px;
+    position: relative;
+    top: -610px;
+    left: 45px;
+}
+.ml-45{
+    margin-left: 45px;
+}
+.c-dg{
+    color: #304D00;
+}
+.card-perfect-img{
+    z-index: 0;
+    margin-top: -185px;
+    position: relative;
+    left: -100px;
+}
+#one{
+    position: absolute;
+    right: 350px;
+    top: 120px;
+    width: 42px;
+    height: 42px;
+    border-radius: 500px;
+    box-shadow:  0 0 20px #B7FF3D;
+}
+#two{
+    position: absolute;
+    right: 280px;
+    top: 420px;
+    width: 42px;
+    height: 42px;
+    border-radius: 500px;
+    box-shadow:  0 0 20px #B7FF3D;
+}
+#three{
+    position: absolute;
+    left: 595px;
+    top: 590px;
+    width: 42px;
+    height: 42px;
+    border-radius: 500px;
+    box-shadow:  0 0 20px #B7FF3D;
+}
+#four{
+    position: absolute;
+    left: 325px;
+    top: 600px;
+    width: 42px;
+    height: 42px;
+    border-radius: 500px;
+    box-shadow:  0 0 20px #B7FF3D;
+}
+#label{
+    position: relative;
+    left: 420px;
+    top: -655px;
+    width: 173px;
+    height: 173px;
+    border-radius: 173px;
+}
+.card-xbox{
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    
+    
+}
+.card-xbox-img{
+    margin-top: -350px;
+    
+}
+
+#box{
+    
+    position: absolute;
+    left: 0;
+    bottom: 300px;
+}
+.card-control-nav{
+    margin-top: -140px;
+    flex-direction: column;
+}
+.bt{
+    border-bottom: 2px solid #2E2E2E;
+}
+.info-nav{
+    flex-direction: column;
+    margin-top: 109px;
+}
+.text-line{
+    padding: 40px 0;
+}
+.ai{
+    align-items: start;
+}
+.footer-info{
+    margin-top: 230px;
+    align-items: center;
+}
+footer{
+    margin:  92px auto 95px;
+    align-items: center;
+    max-width: 1232px;
+    
+
+}
+
+.footer-nav{
+    color: #A0A0A0;
+}
+.footer-cc{
+    width: 10%;
 }
